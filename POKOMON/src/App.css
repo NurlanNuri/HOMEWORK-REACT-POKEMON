@@ -1,0 +1,29 @@
+body {
+  background: #f5f7fa;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.team-container {
+  background: white;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,44 @@
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pokemonRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.pokemonRow img {
+    width: 70px;
+    height: 70px;
+}
+
+.increments {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.increments button {
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+}
+
+button:last-child {
+    background: #ff6b6b;
+    color: white;
+}
+
+button:last-child:hover {
+    background: #ff4b4b;
+}
